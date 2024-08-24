@@ -17,7 +17,7 @@ let proxyIPs;
 let proxyIP = '';//
 
 let sub = '';// 留空则使用内置订阅
-let subconverter = 'url.v1.mk';// clash订阅转换后端，自带虚假uuid和host订阅。
+let subconverter = 'subapi-loadbalancing.pages.dev';// clash订阅转换后端，自带虚假uuid和host订阅。
 let subconfig = "https://raw.githubusercontent.com/bruceroe/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
 // The user name and password do not contain special characters
