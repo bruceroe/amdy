@@ -9,7 +9,7 @@ import { connect } from 'cloudflare:sockets';
 
 // How to generate your own UUID:
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = '866853eb-5293-4f09-bf00-e13eb237c655';
+let userID = 'd4a17109-17fd-4c3c-8716-677b9fa104b0';
 
 let proxyIPs;
 
@@ -18,7 +18,7 @@ let proxyIP = '';//
 
 let sub = '';// 留空则使用内置订阅
 let subconverter = 'url.v1.mk';// clash订阅转换后端，自带虚假uuid和host订阅。
-let subconfig = "https://raw.githubusercontent.com/ansoncloud8/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
+let subconfig = "https://raw.githubusercontent.com/bruceroe/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; //订阅配置文件
 let subProtocol = 'https';
 // The user name and password do not contain special characters
 // Setting the address will ignore proxyIP
