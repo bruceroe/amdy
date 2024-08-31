@@ -43,7 +43,7 @@ let addresses = [
 	'icook.tw:443#icook.tw',//官方优选域名
 	//'cloudflare.cfgo.cc:443#关注YouTube频道@AM_CLUB',
 	'visa.com:443#visa.com',
-	'www.d-555.com#www.d-555.com'
+	'icook.hk:443#icook.hk'
 ];
 // 设置优选地址api接口
 let addressesapi = ['https://raw.githubusercontent.com/ansoncloud8/am-tunnel/dev/ipv4.txt'];
