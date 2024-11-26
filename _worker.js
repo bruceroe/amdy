@@ -10,7 +10,7 @@ import { connect } from 'cloudflare:sockets';
 
 // Generate your own UUID using the following command in PowerShell:
 // Powershell -NoExit -Command "[guid]::NewGuid()"
-let userID = 'd4a17109-17fd-4c3c-8716-677b9fa104b0';
+let userID = '2928d83a-ca75-4d52-b437-fa78c7601378';
 
 // Proxy IPs to choose from
 let proxyIPs = [
@@ -66,8 +66,8 @@ let fakeHostName;
 // Subscription and conversion details
 let subProtocol = 'https';
 let subConverter = 'url.v1.mk'; // Subscription conversion backend using Sheep's function
-let subConfig = "https://raw.githubusercontent.com/bruceroe/ACL4SSR/master/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; // Subscription profile
-let fileName = 'amdy';
+let subConfig = "https://raw.githubusercontent.com/amclubs/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"; // Subscription profile
+let fileName = 'youtube.com/@am_club';
 let isBase64 = true;
 
 let botToken = '';
